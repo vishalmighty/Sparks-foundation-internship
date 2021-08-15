@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+}
+
+.heading {
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 75px;
+    position: relative;
+    margin-left: 34.5%;
+    margin-top: 10px;
+}
+
+.container-fluid {
+    background-color: #ffa25f;
+}
+
+.logoname {
+    margin-left: 10px;
+}
+
+.nav-link {
+    text-decoration-color: aliceblue;
+}
+
+.whole-page {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+/*#login-form {
+    display: none;
+}*/
+
+.form-box {
+    width: 380px;
+    height: 580px;
+    position: relative;
+    margin: 3% auto;
+    /*position & margin interlinked..position relative so auto can be give..if position is absolute then auto will not work insteaad we have to give exact position*/
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.form-boxa {
+    width: 380px;
+    height: 580px;
+    position: relative;
+    margin: 3% 4%;
+    /*position & margin interlinked..position relative so auto can be give..if position is absolute then auto will not work insteaad we have to give exact position*/
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.button-box {
+    width: 230px;
+    /*Height is auto when not given*/
+    position: relative;
+    margin: 35px auto;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    color: aliceblue;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #F3C693;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group-login {
+    position: absolute;
+    top: 150px;
+    width: 280px;
+    transition: .5s;
+    left: 50px;
+}
+
+.input-group-register {
+    position: absolute;
+    top: 120px;
+    width: 280px;
+    transition: .5s;
+    left: 450px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #F3C693;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 34px 0;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+.input-group-login input {
+    color: white;
+    font-size: 15;
+}
+
+.input-group-register input {
+    color: white;
+    font-size: 15;
+}
+
+#first {
+    font-weight: bolder;
+}
+
+
+/*.navbar-expand-lg .nav-item {
+    margin-left: 50px;
+}
+
+.navbar-expand-lg .navbar-nav #first {
+    margin-left: 500px;
+}*/
+
+.follow {
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 100px;
+    position: relative;
+    margin-left: 36.5%;
+    margin-top: 10px;
+}
+
+.social {
+    position: relative;
+    margin-left: 38.5%;
+    min-height: 10vh;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.social a {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+.social a:hover {
+    color: #000;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    margin-left: -200px;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    margin-left: 20px;
+}
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    margin-left: 20px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    margin-left: 20px;
+}
+
+.Mar marquee {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #ffffff;
+}
+
+.para {
+    position: relative;
+    margin: 5% 8%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.sideheading {
+    color: azure;
+    font-size: 20vmin;
+    text-decoration-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.acco {
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 50px;
+    position: relative;
+    margin-left: 34.5%;
+    margin-top: 5px;
+}
